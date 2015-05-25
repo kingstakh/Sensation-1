@@ -56,14 +56,19 @@
    <!-- Plugins can also be added here. -->
   
   <gap:plugin name="org.apache.cordova.inappbrowser" />
-  <feature name="InAppBrowser">
+
+  <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+
+  <gap:plugin name="org.apache.cordova.media" version="0.2.13" />
+
+  <feature name="Geolocation">
+      <param name="ios-package" value="CDVLocation" />
+  </feature>
+    <feature name="InAppBrowser">
     <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
   </feature>
   <feature name="InAppBrowser">
     <param name="ios-package" value="CDVInAppBrowser" />
-  </feature>
-  <feature name="Geolocation">
-      <param name="ios-package" value="CDVLocation" />
   </feature>
   <!--gap:plugin name="com.pushwoosh.plugins.pushwoosh" version="3.0.2" /-->
   <gap:plugin name="org.apache.cordova.media" version="0.2.13" />
