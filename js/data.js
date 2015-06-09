@@ -254,16 +254,16 @@ sensationApp.factory('ServerPostsData', function(){
 sensationApp.factory('CategoriesData', function(){
     
     /* (For DEMO purposes) Local JSON data */
-    var data = { url: 'json/categories.json',
+/*    var data = { url: 'json/categories.json',
                  category_url: 'json/category' };
-    
+*/    
     /* Set your URL as you can see in the following example */
     // var data = { url: 'YourWordpressURL/?json=get_category_index',
     //             category_url: 'YourWordpressURL/?json=get_category_posts&' };
     
     /* With user-friendly permalinks configured */
-    // var data = { url: 'YourWordpressURL/api/get_category_index',
-    //             category_url: 'YourWordpressURL/api/get_category_posts?' };
+     var data = { url: 'http://roomworksmedia.co.za/api/get_category_index',
+                 category_url: 'http://roomworksmedia.co.za/api/get_category_posts?' };
     
     return data;
 });
