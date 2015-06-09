@@ -220,12 +220,7 @@ sensationApp.factory('NewsData', function(){
 
 // Posts Data: JSON Wordpress Posts configuration
 sensationApp.factory('PostsData', function(){
-    
-    /* (For DEMO purposes) Local JSON data */
-//    var data = { url: 'json/wordpress.json' };
-    
-    /* Set your URL as you can see in the following example */
-    // var data = { url: 'YourWordpressURL/?json=get_recent_posts' };
+
     
     /* With user-friendly permalinks configured */
      var data = { url: 'http://roomworksmedia.co.za/api/get_recent_posts' };
@@ -235,14 +230,7 @@ sensationApp.factory('PostsData', function(){
 
 // Server Posts Data (Server side pagination with AngularJS)
 sensationApp.factory('ServerPostsData', function(){
-    
-    /* (For DEMO purposes) Local JSON data */
-/*    var data = { url: 'json/serverposts&' };
-*/    
-    /* Set your URL as you can see in the following example */
-    /* NOTE: In case of the default permalinks, you should add '&' at the end of the url */
-//     var data = { url: 'http://roomworksmedia.co.za/?json=get_recent_posts&' };
-    
+       
     /* With user-friendly permalinks configured */
     /* NOTE: In case of the user-friendly permalinks, you should add '?' at the end of the url */
      var data = { url: 'http://roomworksmedia.co.za/api/get_recent_posts?' };
@@ -253,13 +241,6 @@ sensationApp.factory('ServerPostsData', function(){
 // Categories Data: JSON Categories configuration
 sensationApp.factory('CategoriesData', function(){
     
-    /* (For DEMO purposes) Local JSON data */
-/*    var data = { url: 'json/categories.json',
-                 category_url: 'json/category' };
-*/    
-    /* Set your URL as you can see in the following example */
-    // var data = { url: 'YourWordpressURL/?json=get_category_index',
-    //             category_url: 'YourWordpressURL/?json=get_category_posts&' };
     
     /* With user-friendly permalinks configured */
      var data = { url: 'http://roomworksmedia.co.za/api/get_category_index',
