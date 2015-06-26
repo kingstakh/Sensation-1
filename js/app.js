@@ -176,9 +176,9 @@ var app = {
         $scope.submitForm = function() {
             
             window.plugin.email.open({
-                to:      ['username@company.com'],
-                cc:      ['username1@company.com'],
-                bcc:     ['username2@company.com'],
+                to:      ['gary@roomworks.co.za'],
+                cc:      [''],
+                bcc:     [''],
                 subject: $scope.subject,
                 body:    $scope.message
             });

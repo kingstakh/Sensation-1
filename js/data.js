@@ -223,7 +223,7 @@ sensationApp.factory('PostsData', function(){
 
     
     /* With user-friendly permalinks configured */
-     var data = { url: 'http://roomworksmedia.co.za/api/get_recent_posts' };
+     var data = { url: 'https://thephotographycollective.co.za/api/get_recent_posts' };
     
     return data;
 });
@@ -233,7 +233,7 @@ sensationApp.factory('ServerPostsData', function(){
        
     /* With user-friendly permalinks configured */
     /* NOTE: In case of the user-friendly permalinks, you should add '?' at the end of the url */
-     var data = { url: 'http://roomworksmedia.co.za/api/get_recent_posts?' };
+     var data = { url: 'https://thephotographycollective.co.za/api/get_recent_posts?' };
     
     return data;
 });
@@ -243,8 +243,8 @@ sensationApp.factory('CategoriesData', function(){
     
     
     /* With user-friendly permalinks configured */
-     var data = { url: 'http://roomworksmedia.co.za/api/get_category_index',
-                 category_url: 'http://roomworksmedia.co.za/api/get_category_posts?' };
+     var data = { url: 'https://thephotographycollective.co.za/api/get_category_index',
+                 category_url: 'https://thephotographycollective.co.za/api/get_category_posts?' };
     
     return data;
 });
